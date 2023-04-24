@@ -1,0 +1,77 @@
+
+/* body with violet background */
+body {
+	background-color:rgb(212, 83, 212);
+}
+
+.container {
+/* center the div horizontally */
+   margin: 0 auto;
+   width: 50%;
+}
+
+h1{
+	text-align: center;
+	font-size: 50px;
+	text-decoration: underline;
+}
+
+
+
+/* styling the upper part of the form */
+.form-style-2 label{
+	margin: 0 auto;
+	display: block;
+	margin: 0px 0px 15px 0px;
+}
+.form-style-2 label > span{
+	width: 100px;
+	font-weight: bold;
+	float: left;
+	padding-top: 8px;
+	padding-right: 5px;
+}
+
+
+.form-style-2 input.input-field{
+	box-sizing: border-box;
+	border: 1px solid #C2C2C2;
+	padding: 7px;
+	outline: none;
+	width: 70%;	
+}
+
+.buttons{
+	text-align: center;
+	margin-top: 20px;
+}
+.buttons span{
+	margin-right: 10px;
+	font-size: 20px;
+}
+
+.buttons input{
+	font-size: large;
+}
+.checkboxes{
+	margin-top: 20px;
+	font-size: 20px;
+	text-align: center;
+}
+
+  .gender{
+	margin-top: 20px;
+	font-size: 20px;
+	text-align: center;
+  }
+
+  .birthday{
+	text-align: center;
+  }
+  .birthday input{
+	margin-right: 20px;
+  }
+  .birthday label{
+	font-size: 20px;
+	margin-right: 10px;
+  }
